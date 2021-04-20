@@ -11,7 +11,7 @@ import SwiftUI
 struct VoicesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginScene()
         }
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6890CB0C6CA608B7148D02AB /* Pods_Voices__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B24881B06F0FCCFBA5AEBE /* Pods_Voices__iOS_.framework */; };
+		CA4071EF99248F202898DFD5 /* Pods_Voices__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994FE04EECF595CECB5748C7 /* Pods_Voices__macOS_.framework */; };
 		CD17F2C9262C8B3700C2C903 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17F2C8262C8B3700C2C903 /* Tests_iOS.swift */; };
 		CD17F2D4262C8B3700C2C903 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17F2D3262C8B3700C2C903 /* Tests_macOS.swift */; };
 		CD17F2D6262C8B3700C2C903 /* VoicesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17F2AD262C8B3500C2C903 /* VoicesApp.swift */; };
@@ -15,6 +17,10 @@
 		CD17F2D9262C8B3700C2C903 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17F2AE262C8B3500C2C903 /* ContentView.swift */; };
 		CD17F2DA262C8B3700C2C903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD17F2AF262C8B3600C2C903 /* Assets.xcassets */; };
 		CD17F2DB262C8B3700C2C903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD17F2AF262C8B3600C2C903 /* Assets.xcassets */; };
+		CD17F2F0262CB7C900C2C903 /* LoginScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17F2EF262CB7C900C2C903 /* LoginScene.swift */; };
+		CD17F2F1262CB7C900C2C903 /* LoginScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17F2EF262CB7C900C2C903 /* LoginScene.swift */; };
+		CD17F2FC262DD5E100C2C903 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17F2FB262DD5E100C2C903 /* Colors+Extension.swift */; };
+		CD17F2FD262DD5E100C2C903 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17F2FB262DD5E100C2C903 /* Colors+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07B24881B06F0FCCFBA5AEBE /* Pods_Voices__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Voices__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D82F7D1EDC5CDE642BAABE /* Pods-Voices (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voices (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Voices (macOS)/Pods-Voices (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		994FE04EECF595CECB5748C7 /* Pods_Voices__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Voices__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FBA816DA8AA491A78063DD /* Pods-Voices (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voices (macOS).release.xcconfig"; path = "Target Support Files/Pods-Voices (macOS)/Pods-Voices (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		CD17F2AD262C8B3500C2C903 /* VoicesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicesApp.swift; sourceTree = "<group>"; };
 		CD17F2AE262C8B3500C2C903 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD17F2AF262C8B3600C2C903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		CD17F2CF262C8B3700C2C903 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD17F2D3262C8B3700C2C903 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CD17F2D5262C8B3700C2C903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD17F2EF262CB7C900C2C903 /* LoginScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScene.swift; sourceTree = "<group>"; };
+		CD17F2FB262DD5E100C2C903 /* Colors+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
+		D23C877A5BFA7C90963B6C35 /* Pods-Voices (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voices (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Voices (iOS)/Pods-Voices (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		EF40FF29426A234BDFF34E50 /* Pods-Voices (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voices (iOS).release.xcconfig"; path = "Target Support Files/Pods-Voices (iOS)/Pods-Voices (iOS).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6890CB0C6CA608B7148D02AB /* Pods_Voices__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4071EF99248F202898DFD5 /* Pods_Voices__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EF42B4F8CDE5FF44CDDA120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B24881B06F0FCCFBA5AEBE /* Pods_Voices__iOS_.framework */,
+				994FE04EECF595CECB5748C7 /* Pods_Voices__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD17F2A7262C8B3500C2C903 = {
 			isa = PBXGroup;
 			children = (
@@ -92,12 +117,16 @@
 				CD17F2C7262C8B3700C2C903 /* Tests iOS */,
 				CD17F2D2262C8B3700C2C903 /* Tests macOS */,
 				CD17F2B5262C8B3600C2C903 /* Products */,
+				D9D49D425EB24A15CF02A3DF /* Pods */,
+				2EF42B4F8CDE5FF44CDDA120 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		CD17F2AC262C8B3500C2C903 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CD17F2FA262DD55300C2C903 /* Extensions */,
+				CD17F2EE262CB5FD00C2C903 /* Scenes */,
 				CD17F2AD262C8B3500C2C903 /* VoicesApp.swift */,
 				CD17F2AE262C8B3500C2C903 /* ContentView.swift */,
 				CD17F2AF262C8B3600C2C903 /* Assets.xcassets */,
@@ -151,6 +180,34 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		CD17F2EE262CB5FD00C2C903 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CD17F2EF262CB7C900C2C903 /* LoginScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CD17F2FA262DD55300C2C903 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD17F2FB262DD5E100C2C903 /* Colors+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9D49D425EB24A15CF02A3DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D23C877A5BFA7C90963B6C35 /* Pods-Voices (iOS).debug.xcconfig */,
+				EF40FF29426A234BDFF34E50 /* Pods-Voices (iOS).release.xcconfig */,
+				90D82F7D1EDC5CDE642BAABE /* Pods-Voices (macOS).debug.xcconfig */,
+				C4FBA816DA8AA491A78063DD /* Pods-Voices (macOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD17F2DE262C8B3700C2C903 /* Build configuration list for PBXNativeTarget "Voices (iOS)" */;
 			buildPhases = (
+				5FD88C8C38F4EEBC1C61FE4F /* [CP] Check Pods Manifest.lock */,
 				CD17F2B0262C8B3600C2C903 /* Sources */,
 				CD17F2B1262C8B3600C2C903 /* Frameworks */,
 				CD17F2B2262C8B3600C2C903 /* Resources */,
+				594D4E779F00079BFA66EAA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD17F2E1262C8B3700C2C903 /* Build configuration list for PBXNativeTarget "Voices (macOS)" */;
 			buildPhases = (
+				3F74D81ED51B254676B80B29 /* [CP] Check Pods Manifest.lock */,
 				CD17F2B8262C8B3700C2C903 /* Sources */,
 				CD17F2B9262C8B3700C2C903 /* Frameworks */,
 				CD17F2BA262C8B3700C2C903 /* Resources */,
+				E1B3969E891F6362A81E375E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,13 +364,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F74D81ED51B254676B80B29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Voices (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594D4E779F00079BFA66EAA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Voices (iOS)/Pods-Voices (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Voices (iOS)/Pods-Voices (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voices (iOS)/Pods-Voices (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD88C8C38F4EEBC1C61FE4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Voices (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1B3969E891F6362A81E375E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Voices (macOS)/Pods-Voices (macOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Voices (macOS)/Pods-Voices (macOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Voices (macOS)/Pods-Voices (macOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD17F2B0262C8B3600C2C903 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CD17F2D8262C8B3700C2C903 /* ContentView.swift in Sources */,
+				CD17F2F0262CB7C900C2C903 /* LoginScene.swift in Sources */,
 				CD17F2D6262C8B3700C2C903 /* VoicesApp.swift in Sources */,
+				CD17F2FC262DD5E100C2C903 /* Colors+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +462,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD17F2D9262C8B3700C2C903 /* ContentView.swift in Sources */,
+				CD17F2F1262CB7C900C2C903 /* LoginScene.swift in Sources */,
 				CD17F2D7262C8B3700C2C903 /* VoicesApp.swift in Sources */,
+				CD17F2FD262DD5E100C2C903 /* Colors+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +613,7 @@
 		};
 		CD17F2DF262C8B3700C2C903 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23C877A5BFA7C90963B6C35 /* Pods-Voices (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,6 +636,7 @@
 		};
 		CD17F2E0262C8B3700C2C903 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF40FF29426A234BDFF34E50 /* Pods-Voices (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -512,6 +660,7 @@
 		};
 		CD17F2E2262C8B3700C2C903 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D82F7D1EDC5CDE642BAABE /* Pods-Voices (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -536,6 +685,7 @@
 		};
 		CD17F2E3262C8B3700C2C903 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FBA816DA8AA491A78063DD /* Pods-Voices (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
