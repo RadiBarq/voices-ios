@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>13969767317-d85t3ae9jpe9vn61t4n0hpnstnsupgk5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.13969767317-d85t3ae9jpe9vn61t4n0hpnstnsupgk5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDcO1kxPUgFL1BCFa61VO4occ2XTp331Ug</string>
+	<key>GCM_SENDER_ID</key>
+	<string>13969767317</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.radibaraq.Voices</string>
+	<key>PROJECT_ID</key>
+	<string>voices-d94ce</string>
+	<key>STORAGE_BUCKET</key>
+	<string>voices-d94ce.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:13969767317:ios:32388a130f7b91b5f4549c</string>
+</dict>
+</plist>

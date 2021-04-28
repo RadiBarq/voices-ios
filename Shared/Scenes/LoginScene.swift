@@ -9,11 +9,12 @@ import SwiftUI
 import AuthenticationServices
 
 struct LoginScene: View {
+    @StateObject private var loginViewModel: LoginViewModel = LoginViewModel()
     
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalClass
     #endif
-    
+
     var body: some View {
         #if os(iOS)
         content
@@ -35,11 +36,12 @@ struct LoginScene: View {
                     .font(.title3)
                     .foregroundColor(.black)
                     .multilineTextAlignment(.center)
-                
                 SignInWithAppleButton(
                     onRequest: { request in
+                        loginViewModel.signinWithAppleOnRequestHandler(request: request)
                     },
                     onCompletion: { result in
+                        loginViewModel.signinWithAppleOnCompletionHandler(result: result)
                     }
                 )
                 .frame(width: geometry.size.width / 1.5, height: 50)
@@ -59,6 +61,11 @@ struct LoginScene: View {
             .background(Color.accent)
             .clipShape(RoundedRectangle(cornerRadius: cardCornerRadius, style: .continuous))
             Spacer()
+        }
+        .alert(isPresented: $loginViewModel.showingAlert) {
+            Alert(title: Text("Oops!"),
+                  message: Text(loginViewModel.alertMessage),
+                  dismissButton: .default(Text("Got it!")))
         }
     }
 }
